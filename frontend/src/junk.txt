@@ -1,0 +1,37 @@
+Menu.js extra buttons:
+ <label>Brush Color </label>
+            <input
+                type="color"
+                onChange={(e) => {
+                    setLineColor(e.target.value);
+                }}
+            />
+            <label>Brush Width </label>
+            <input
+                type="range"
+                min="1"
+                max="20"
+                onChange={(e) => {
+                    setLineWidth(e.target.value);
+                }}
+            />
+            <label>Brush Opacity</label>
+            <input
+                type="range"
+                min="1"
+                max="100"
+                onChange={(e) => {
+                    setLineOpacity(e.target.value / 100);
+                }}
+            />
+
+------------------
+
+const predict = () => {
+        const canvas = canvasRef.current;
+        const ctx = ctxRef.current;
+        const imgData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+        console.log(imgData)
+    };
+
+--------------------

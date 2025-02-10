@@ -1,0 +1,14 @@
+# Ignore virtual environment
+venv3.12.3_django_react/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment variables
+.env
+
+# Ignore Node.js dependencies (for React frontend)
+frontend/node_modules/
+frontend/build/

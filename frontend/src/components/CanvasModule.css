@@ -1,0 +1,25 @@
+.draw-area {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Align items in a row (horizontal layout) */
+  justify-content:space-around; /* Space items evenly with space in between */
+  align-items: center; /* Vertically align items to the center */
+  width: auto;
+  height: auto;
+  position: relative;
+  background-color: white;
+  padding: 0px; 
+}
+
+  
+.Menu {
+  width: auto; /* Adjust width to fit alongside the canvas */
+  height: auto; /* Allow height to adjust based on content */
+  display: flex;
+  flex-direction: row; /* Stack items vertically in the menu */
+  justify-content: space-evenly;
+  border-radius: 5px;
+  align-items: center;
+  background-color: #a3a3a32d;
+  padding: 10px; 
+  margin-top: 5px;
+}
