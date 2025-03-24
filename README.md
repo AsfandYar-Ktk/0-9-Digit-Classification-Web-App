@@ -2,6 +2,15 @@
 
 This is a web application that allows users to draw a digit (0-9) on a 28x28 grid, and a machine learning model predicts the digit. The backend is built using Flask, while the frontend is developed with React.
 
+
+---
+## 📽️ Demo Video
+A demonstration video of the project will be added here.
+
+https://github.com/user-attachments/assets/8f697a0f-fda8-4195-90ae-ac7624f475b9
+
+---
+
 ## Features
 - 🎨 **Interactive Canvas**: Users can draw digits on a 28x28 grid.
 - ⚡ **Real-time Prediction**: The drawn digit is processed and classified using a trained ML model.
@@ -50,11 +59,6 @@ npm start
 
 The frontend will run on `http://localhost:3000/`.
 
----
-## 📽️ Demo Video
-A demonstration video of the project will be added here.
-
-https://github.com/user-attachments/assets/8f697a0f-fda8-4195-90ae-ac7624f475b9
 
 ---
 ## 🔮 Future Improvements
